@@ -1,26 +1,22 @@
-# Play Integrity Fix
+# Pray Integrity Fix a.k.a Play Integrity Fix
 
-This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
+This module attempts to fix Play Integrity and SafetyNet verdicts to obtain a valid attestation.
 
 ## NOTE
 
-This module is not made to hide root, nor to avoid detections in other apps. It only serves to pass Device verdict in the Play Integrity tests and certify your device.
-All issues created to report a non-Google app not working will be closed without notice.
+This module is designed specifically to help pass the Play Integrity tests and ensure your device is certified. It does not hide root access or bypass detection mechanisms in any third-party apps. Please note that this module is focused solely on Google’s Play Integrity API. Any issues regarding compatibility with non-Google apps will be closed, as they fall outside the scope of this project. Use at your own risk and ensure you understand the limitations of this module.
 
 ## Tutorial
 
 You will need root and Zygisk, so you must choose ONE of this three setups:
 
-- [Magisk](https://github.com/topjohnwu/Magisk) with Zygisk enabled.
-- [KernelSU](https://github.com/tiann/KernelSU) with [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) module installed.
-- [APatch](https://github.com/bmax121/APatch) with [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [Magisk](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module
+- [KernelSU](https://github.com/tiann/KernelSU) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [APatch](https://github.com/bmax121/APatch) with [*"ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 
-After flashing and reboot your device, you can check PI and SN using these apps:
+After flashing and reboot your device, you can check PI and SN using this apps:
 
-- Play Integrity -> https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck
-- SafetyNet -> https://play.google.com/store/apps/details?id=rikka.safetynetchecker
-
-NOTE: if you get an error message about a limit, you need to use another app, this is because a lot of users are requesting an attestation.
+- [**Play Integrity Fix and SafetyNet**](https://play.google.com/store/apps/details?id=com.henrikherzig.playintegritychecker)
 
 NOTE: SafetyNet is obsolete, more info here: https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline
 
@@ -35,15 +31,15 @@ After requesting an attestation, you should get this result:
 - MEETS_STRONG_INTEGRITY  ❌
 - MEETS_VIRTUAL_INTEGRITY ❌ (this is for emulators only)
 
+NOTE: If you want a strong verdict on a device with an unlocked bootloader, use the [**Tricky Store**](https://github.com/5ec1cff/TrickyStore) module and a valid keybox that can provide strong integrity. **PLEASE NOTE, NEVER PURCHASE A KEYBOX FROM ONLINE STORES, IT IS 100% A SCAM!**
+
 You can know more about verdicts in this post: https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/
 
 And in SafetyNet you should get this:
 
-- basicIntegrity:  true
-- ctsProfileMatch: true
-- evaluationType:  BASIC
-
-NOTE: Strong verdict is impossible to pass on unlocked bootloader devices, there are few devices and "exploits" which will allow you to pass it, but, in normal conditions, this verdict will be green only if you are using stock ROM and locked bootloader. The old posts talking about Strong pass was an "exploit" in Google servers, obviously, now it's patched.
+- `basicIntegrity`:  **true**
+- `ctsProfileMatch`: **true**
+- `evaluationType`:  **BASIC**
 
 ## Acknowledgments
 - [kdrag0n](https://github.com/kdrag0n/safetynet-fix) & [Displax](https://github.com/Displax/safetynet-fix) for the original idea.
@@ -53,7 +49,7 @@ NOTE: Strong verdict is impossible to pass on unlocked bootloader devices, there
 https://xdaforums.com/t/pif-faq.4653307/
 
 ## Download
-https://github.com/chiteroman/PlayIntegrityFix/releases/latest
+https://github.com/al4uu/PrayIntegrityFix/releases/latest
 
 ## Donations
 [PayPal](https://www.paypal.com/paypalme/chiteroman0)
