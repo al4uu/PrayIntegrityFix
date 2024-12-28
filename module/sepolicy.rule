@@ -1,1 +1,2 @@
-allow gmscore_app gmscore_app process execmem
+allow gmscore_app gmscore_app process execmem;
+auditallow gmscore_app gmscore_app process execmem;
