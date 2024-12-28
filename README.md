@@ -10,9 +10,9 @@ This module is designed specifically to help pass the Play Integrity tests and e
 
 You will need root and Zygisk, so you must choose ONE of this three setups:
 
-- [Magisk](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module
-- [KernelSU](https://github.com/tiann/KernelSU) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
-- [APatch](https://github.com/bmax121/APatch) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [**Magisk**](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module
+- [**KernelSU**](https://github.com/tiann/KernelSU) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [**APatch**](https://github.com/bmax121/APatch) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 
 After flashing and reboot your device, you can check PI and SN using this apps:
 
@@ -42,8 +42,9 @@ And in SafetyNet you should get this:
 - `evaluationType`:  **BASIC**
 
 ## Acknowledgments
-- [kdrag0n](https://github.com/kdrag0n/safetynet-fix) & [Displax](https://github.com/Displax/safetynet-fix) for the original idea.
-- [osm0sis](https://github.com/osm0sis) for his original [autopif2.sh](https://github.com/osm0sis/PlayIntegrityFork/blob/main/module/autopif2.sh) script, and [backslashxx](https://github.com/backslashxx) & [KOWX712](https://github.com/KOWX712) for improving it ([action.sh](https://github.com/chiteroman/PlayIntegrityFix/blob/main/module/action.sh)).
+- [**kdrag0n**](https://github.com/kdrag0n/safetynet-fix) & [Displax](https://github.com/Displax/safetynet-fix) for the original idea.
+- [**osm0sis**](https://github.com/osm0sis) for his original [**autopif2.sh**](https://github.com/osm0sis/PlayIntegrityFork/blob/main/module/autopif2.sh) script.
+- [**backslashxx**](https://github.com/backslashxx) & [**KOWX712**](https://github.com/KOWX712) for improving it ([**action.sh**](https://github.com/al4uu/PrayIntegrityFix/blob/main/module/action.sh)).
 
 ## FAQ
 https://xdaforums.com/t/pif-faq.4653307/
