@@ -80,7 +80,9 @@ resetprop_if_diff ro.secure 1
 # Work around AOSPA PropImitationHooks conflict
 if [ -n "$(resetprop ro.aospa.version)" ]; then
     for PROP in persist.sys.pihooks.first_api_level persist.sys.pihooks.security_patch; do
-        resetprop | grep -q "$PROP" || resetprop -n -p "$PROP" ""
+        if ! resetprop -p "$PROP" > /dev/null 2>&1; then
+            resetprop -n -p "$PROP" ""
+        fi
     done
 fi
 
