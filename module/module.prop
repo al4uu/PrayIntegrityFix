@@ -1,6 +1,6 @@
 id=playintegrityfix
 name=Pray Integrity Fix
-version=v18.3
+version=18.3
 versionCode=18300
 author=@al4uu & @chiteroman
 description=Universal modular fix for Play Integrity (and SafetyNet) on devices running Android 8-15
