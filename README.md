@@ -24,14 +24,14 @@ Also, if you are using custom rom or custom kernel, be sure that your kernel nam
 
 After requesting an attestation, you should get this result:
 
-- MEETS_BASIC_INTEGRITY   ✅
-- MEETS_DEVICE_INTEGRITY  ✅
-- MEETS_STRONG_INTEGRITY  ❌
-- MEETS_VIRTUAL_INTEGRITY ❌ (this is for emulators only)
+- `MEETS_BASIC_INTEGRITY`   ✅
+- `MEETS_DEVICE_INTEGRITY`  ✅
+- `MEETS_STRONG_INTEGRITY`  ❌
+- `MEETS_VIRTUAL_INTEGRITY` ❌ **(this is for emulators only)**
 
 NOTE: If you want a strong verdict on a device with an unlocked bootloader, use the [**Tricky Store**](https://github.com/5ec1cff/TrickyStore) module and a valid keybox that can provide strong integrity. **PLEASE NOTE, NEVER PURCHASE A KEYBOX FROM ONLINE STORES, IT IS 100% A SCAM!**
 
-You can know more about verdicts in this post: https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/
+You can know more about verdicts in [**this post**](https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/)
 
 And in SafetyNet you should get this:
 
@@ -42,7 +42,7 @@ And in SafetyNet you should get this:
 ## Acknowledgments
 - [**kdrag0n**](https://github.com/kdrag0n/safetynet-fix) & [**Displax**](https://github.com/Displax/safetynet-fix) for the original idea.
 - [**osm0sis**](https://github.com/osm0sis) for his original [**autopif2.sh**](https://github.com/osm0sis/PlayIntegrityFork/blob/main/module/autopif2.sh) script.
-- [**backslashxx**](https://github.com/backslashxx) & [**KOWX712**](https://github.com/KOWX712) for improving it ([**action.sh**](https://github.com/al4uu/PrayIntegrityFix/blob/main/module/action.sh)).
+- [**backslashxx**](https://github.com/backslashxx) & [**KOWX712**](https://github.com/KOWX712) for improving it [**action.sh**](https://github.com/al4uu/PrayIntegrityFix/blob/main/module/action.sh)
 
 ## FAQ
 - [**XDA Forums**](https://xdaforums.com/t/pif-faq.4653307/)
