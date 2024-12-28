@@ -10,17 +10,15 @@ This module is designed specifically to help pass the Play Integrity tests and e
 
 You will need root and Zygisk, so you must choose ONE of this three setups:
 
-- [**Magisk**](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module
+- [**Magisk**](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 - [**KernelSU**](https://github.com/tiann/KernelSU) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 - [**APatch**](https://github.com/bmax121/APatch) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 
-After flashing and reboot your device, you can check PI and SN using this apps:
+After flashing and reboot your device, [**you can check PI and SN using this apps**](https://play.google.com/store/apps/details?id=com.henrikherzig.playintegritychecker)
 
-- [**Play Integrity Fix and SafetyNet**](https://play.google.com/store/apps/details?id=com.henrikherzig.playintegritychecker)
+NOTE: SafetyNet is obsolete, [**more info here**](https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline)
 
-NOTE: SafetyNet is obsolete, more info here: https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline
-
-Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running `uname -r` command. This is a list of banned strings: https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909
+Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running `uname -r` command. [**This is a list of banned strings**](https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909)
 
 ## Verdicts
 
@@ -42,15 +40,15 @@ And in SafetyNet you should get this:
 - `evaluationType`:  **BASIC**
 
 ## Acknowledgments
-- [**kdrag0n**](https://github.com/kdrag0n/safetynet-fix) & [Displax](https://github.com/Displax/safetynet-fix) for the original idea.
+- [**kdrag0n**](https://github.com/kdrag0n/safetynet-fix) & [**Displax**](https://github.com/Displax/safetynet-fix) for the original idea.
 - [**osm0sis**](https://github.com/osm0sis) for his original [**autopif2.sh**](https://github.com/osm0sis/PlayIntegrityFork/blob/main/module/autopif2.sh) script.
 - [**backslashxx**](https://github.com/backslashxx) & [**KOWX712**](https://github.com/KOWX712) for improving it ([**action.sh**](https://github.com/al4uu/PrayIntegrityFix/blob/main/module/action.sh)).
 
 ## FAQ
-https://xdaforums.com/t/pif-faq.4653307/
+- [**XDA Forums**](https://xdaforums.com/t/pif-faq.4653307/)
 
 ## Download
-https://github.com/al4uu/PrayIntegrityFix/releases/latest
+- [**Release Pages**](https://github.com/al4uu/PrayIntegrityFix/releases/latest)
 
 ## Donations
-[PayPal](https://www.paypal.com/paypalme/chiteroman0)
+- [**PayPal**](https://www.paypal.com/paypalme/chiteroman0)
