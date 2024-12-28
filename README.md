@@ -12,7 +12,7 @@ You will need root and Zygisk, so you must choose ONE of this three setups:
 
 - [Magisk](https://github.com/topjohnwu/Magisk) with Zygisk enabled or use the [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module
 - [KernelSU](https://github.com/tiann/KernelSU) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
-- [APatch](https://github.com/bmax121/APatch) with [*"ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [APatch](https://github.com/bmax121/APatch) with [**ZygiskNext**](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 
 After flashing and reboot your device, you can check PI and SN using this apps:
 
@@ -20,7 +20,7 @@ After flashing and reboot your device, you can check PI and SN using this apps:
 
 NOTE: SafetyNet is obsolete, more info here: https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline
 
-Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running ```uname -r``` command. This is a list of banned strings: https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909
+Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running `uname -r` command. This is a list of banned strings: https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909
 
 ## Verdicts
 
