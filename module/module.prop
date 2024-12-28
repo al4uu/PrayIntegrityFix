@@ -1,7 +1,7 @@
 id=playintegrityfix
-name=Play Integrity Fix
-version=v18.2
-versionCode=18200
-author=chiteroman
+name=Pray Integrity Fix
+version=v18.3
+versionCode=18300
+author=@al4uu & @chiteroman
 description=Universal modular fix for Play Integrity (and SafetyNet) on devices running Android 8-15
-updateJson=https://raw.githubusercontent.com/chiteroman/PlayIntegrityFix/main/update.json
+updateJson=https://raw.githubusercontent.com/al4uu/PrayIntegrityFix/main/update.json
