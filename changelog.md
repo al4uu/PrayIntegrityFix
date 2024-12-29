@@ -6,6 +6,9 @@ If you are using TrickyStore and you have a valid keybox, but Strong
 isn't passing, maybe you should change the ROM.
 Stock ROMs gives the best results.
 
+## 18.4 - (2024-12-29)
+- Update `Fingerprint` to `comet_beta`
+
 ## 18.3 - (2024-12-29)
 - Cleaned up redundant code to improve stability.
 - Refined SELinux handling and improved property resets.
