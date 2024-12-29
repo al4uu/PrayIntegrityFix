@@ -28,7 +28,7 @@ MODDIR="/data/adb/modules/playintegrityfix"
 MODULE_PROP="${MODDIR}/module.prop"
 BACKUP_PROP="${MODULE_PROP}.orig"
 
-# Backup module.prop if it exists and backup doesn't exist
+# Backup module.prop if it exists
 if [ -f "$MODULE_PROP" ] && [ ! -f "$BACKUP_PROP" ]; then
     cp "$MODULE_PROP" "$BACKUP_PROP"
 fi
@@ -51,7 +51,7 @@ fi
 
 # Conditional early sensitive properties
 
-# Samsung (General)
+# Samsung
 resetprop_if_diff ro.boot.warranty_bit 0
 resetprop_if_diff ro.vendor.boot.warranty_bit 0
 resetprop_if_diff ro.vendor.warranty_bit 0
